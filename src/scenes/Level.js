@@ -44,7 +44,7 @@ class Level extends Phaser.Scene {
 	create() {
 
 		this.editorCreate();
-		this.x = 1
+		this.x = prompt("Enter input between 1 to 6")
 		if (this.x == 1) {
 			this.getImage(336, 357)
 		}
